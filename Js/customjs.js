@@ -2,7 +2,7 @@
 
 function readWorkbookFromRemoteFile(url, callback) {
     var xhr = new XMLHttpRequest();
-    xhr.open('get', '题库.xls', true);
+    xhr.open('get', 'https://github.com/Fanyu-Na/BrushUp/blob/main/%E9%A2%98%E5%BA%93.xls', true);
     xhr.responseType = 'arraybuffer';
     xhr.onload = function (e) {
         if (xhr.status == 200) {
